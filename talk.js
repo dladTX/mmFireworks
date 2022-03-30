@@ -1,6 +1,6 @@
 $(function() {
     $('#yes').click(function(event) {
-        modal('我就知道我家苏大宝贝一定会愿意的。(^_^)', function() {
+        modal('我就知道我家大宝贝一定会愿意的。(^_^)', function() {
             $('.page_one').addClass('hide');
             $('.page_two').removeClass('hide');
             // typeWrite();
@@ -22,7 +22,7 @@ function B() {
 }
 
 function C() {
-    modal('也是我不爱别人的理由。', D);
+    modal('所有有你的选择，我都选你！', D);
 }
 
 function D() {
@@ -50,7 +50,7 @@ function I() {
 }
 
 function J() {
-    modal('我的未来,与你同在。', function() {
+    modal('我想未来的每个瞬间都是和你！', function() {
         fireworks();
     });
 }
